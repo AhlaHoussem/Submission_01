@@ -1,6 +1,3 @@
-//
-// Created by Be grateful on 22/04/2022.
-//
 
 #include "rational.hpp"
 #include <iostream>

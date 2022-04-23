@@ -1,15 +1,12 @@
-//
-// Created by Be grateful on 22/04/2022.
-//
 
 #include "rational.hpp"
 #include <iostream>
 
 /**
  * Submission of the first C++ project
- *
+ * @author group 70
  * @param argc argument of the main
- * @param argv
+ * @param argv argument of the main
  * @return
  */
 
