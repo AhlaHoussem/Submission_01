@@ -6,7 +6,7 @@
 #include <iostream>
 
 /**
- * Submission of the first C++ class
+ * Submission of the first C++ project
  *
  * @param argc argument of the main
  * @param argv
