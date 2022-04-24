@@ -28,16 +28,16 @@ int main (){
     std::cout << " the smallest number is : " ;
 
     if (c < d && c < e && c < f) {
-        std::cout << c << std::endl;
+        std::cout << "c : " << c << std::endl;
     }
     else if (d < c && d < e && d < f) {
-        std::cout << d << std::endl;
+        std::cout << "d : " <<  d << std::endl;
     }
     else if (e < c && e < d && e < f) {
-        std::cout << e << std::endl;
+        std::cout << "e : " << e << std::endl;
     }
     else if (f < c && f < d && f < e) {
-        std::cout << f << std::endl;
+        std::cout << "f : " << f << std::endl;
     } else {
         std::cout << "all results are equal !!" << std::endl;
     }
