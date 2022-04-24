@@ -37,11 +37,14 @@ Rational Rational::operator/(Rational rational) {
 }
 
 bool Rational::operator<(Rational rational) {
-    if ((counter < 0) != (rational.counter < 0) || (denominator < 0) != (rational.denominator < 0) ) { // if only when one of the two numbers is negative
-        return !(counter*rational.denominator < denominator*rational.counter);
-    } else {
-        return counter*rational.denominator < denominator*rational.counter;
-    }
+//    if ((counter < 0) != (rational.counter < 0) && (denominator < 0) != (rational.denominator < 0) ) { // if only when one of the two numbers is negative
+//        return !(counter*rational.denominator < denominator*rational.counter);
+//    } else {
+//        return counter*rational.denominator < denominator*rational.counter;
+//    }
+    float r0 = float(counter) / float(denominator);
+    float r1 = float(rational.counter) / float(rational.denominator);
+    return (r0<r1);
 }
 
 Rational Rational::simplify(Rational rational){

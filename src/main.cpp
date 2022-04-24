@@ -10,7 +10,7 @@
  * @return
  */
 
-int main (int argc, char** argv){
+int main (){
 
     Rational a(1, 4);
     Rational b(1,2); // or Rational b;
