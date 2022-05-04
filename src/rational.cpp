@@ -47,12 +47,12 @@ bool Rational::operator<(Rational rational) {
     return (r0<r1);
 }
 
-Rational Rational::simplify(Rational rational){
+Rational simplify(Rational rational){
     int gdc = greatestCommonDivisor(rational.denominator, rational.counter);
     return Rational(rational.counter / gdc, rational.denominator / gdc);
 }
 
-int Rational::greatestCommonDivisor(int a, int b){
+int greatestCommonDivisor(int a, int b){
     if (b == 0) {
         return a;
     } else {

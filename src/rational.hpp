@@ -17,14 +17,14 @@ public:
     Rational operator* (Rational rational);
     Rational operator/ (Rational rational);
     bool operator< (Rational rational);
-    Rational simplify (Rational rational);
 
     int counter;
     int denominator;
 
-private :
-    int greatestCommonDivisor(int a, int b);
 };
+
+Rational simplify (Rational rational);
+int greatestCommonDivisor(int a, int b);
 
 std::ostream& operator<<(std::ostream &out, Rational rational);
 

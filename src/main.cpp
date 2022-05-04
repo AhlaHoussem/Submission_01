@@ -42,10 +42,10 @@ int main (){
         std::cout << "all results are equal !!" << std::endl;
     }
 
-    std::cout << c.simplify(a) << std::endl;
-    std::cout << c.simplify(c) << std::endl;
-    std::cout << d.simplify(d) << std::endl;
-    std::cout << e.simplify(e) << std::endl;
-    std::cout << f.simplify(f) << std::endl;
-    std::cout << f.simplify(Rational(9,3 )) << std::endl;
+    std::cout << simplify(a) << std::endl;
+    std::cout << simplify(c) << std::endl;
+    std::cout << simplify(d) << std::endl;
+    std::cout << simplify(e) << std::endl;
+    std::cout << simplify(f) << std::endl;
+    std::cout << simplify(Rational(9,3 )) << std::endl;
 }
